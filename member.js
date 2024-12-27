@@ -1,4 +1,6 @@
-function skillsmember(){
-  var skills = ["HTML", "CSS", "JavaScript"];
-  return skills;
+function skillsMember() {
+  return {
+    name: 'John Doe',
+    skills: ['JavaScript', 'React', 'Node']
+  };
 }
